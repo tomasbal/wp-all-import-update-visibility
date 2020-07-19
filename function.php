@@ -5,7 +5,7 @@ $parent =  wp_get_post_parent_id($variation_id);
 	if($parent){
 		return $parent;
 	}else{
-	return $sku;	
+		return $sku;	
 	}
 }
 ?>
